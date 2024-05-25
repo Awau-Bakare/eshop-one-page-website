@@ -21,4 +21,87 @@ body {
 
 }
 
+div > p {
+    background: green;
+  }
+  
+  div > section p {
+    background: red;
+  }
+  
+  div + p {
+  }
+
+#first-line::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  
+  }
+
+
+  
+.button:link {
+    color: #ff0000;
+  }
+
+  .button:visited {
+    color: black;
+  }
+  
+  .button:hover {
+    background: yellowgreen;
+  }
+   
+  .button:active {
+    color: red;
+    background-color: #000;
+  }
+
+  .container:hover .child {
+    display: block;
+  }
+
+ .child { 
+  /* display: block;   */
+  background-color: yellowgreen;
+  padding: 2%;
+  display: none;
+
+ }
+
+ 
+p.solid{
+  border-style: solid;
+  border-color: blue;
+  
+
+}
+
+p.dotted{
+  border-style: dotted;
+  border-bottom-style: dashed;
+  
+}
+
+.margin {
+  outline: 2px solid red;
+  /* max-width: 500px; */
+  /* width: 1500px; */
+  /* height: 100vh; */
+  height: auto;
+  /* text-align: center; */
+  text-decoration-line: overline;
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  }
+
+
+
+
+
+
+
 

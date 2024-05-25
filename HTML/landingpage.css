@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+   
+
+}
+
+.page{
+    padding: 25px;
+    width: 100%;
+    background-color: #040720;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: orangered;
+    
+
+}
+
+.menu li {
+    float: right ;
+}
+
+.menu li {
+    display: contents;
+    list-style: none;
+    
+}
+
+.menu li a{
+    font-size: 18px;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+    float: center;
+ 
+}
+
+.menu li a::after{
+    content:none  ;
+    width: 0%;
+    height: 2px;
+    background: blue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.menu li a:hover::after{
+    width: 100%;
+}
+
+.login{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.login p a{
+    color: #dc4d01;
+    font-size: 18px;
+    text-decoration: none;
+    float: right;
+
+    }
+
+    .loginParagraph{
+        border-bottom: 1px solid white         ;
+        
+    }
+
+    .fa-cart-shopping{
+        color: white ;
+        
+    }
+
+.image {
+        margin: 70px;
+        padding: 10px;
+    }
+
+
+form {
+    width: 400px;
+    height: 370px;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 20px 40px rgb(0, 0, 0) 
+}
+
+form h3 {
+    width: 350px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    border-bottom: 1px; color: black;
+    border-top: 15px;
+    border-right: 10px;
+    border-left: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    padding: 10px;
+    box-shadow: 0 20px 40px rgb(0, 0, 0)
+}
+
+.btn{
+    width: 350px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 5px  ;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+
+}
+
+.btn:hover {
+    background-color: orangered;
+    color: blue  ;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.text {
+    font-family:sans-serif;
+    margin: 5px;
+    font-size: 15px;
+
+}
+
+.comment {
+    font-size: 20px;
+    text-align: center;
+}
+.google{
+    width: 350px;
+    height: 35px;
+    margin-top: 5%;
+    background-color: orangered;
+    border-radius: 5px;
+
+}
+
+.google:hover{
+    background-color: blue;
+}
+
+.google a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none  ;
+}
+
+.content {
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.fa-google{
+    color: white;
+    font: 15px;
+    margin: 5px;
+
+}
+
+.copy {
+
+   text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.page2{
+    padding: 30px;
+    width: 100%;
+    background-color: #040720;
+    align-content: center;
+}
+
+

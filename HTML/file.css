@@ -6,9 +6,24 @@ input {
     margin: 1rem;
     gap: 5rem;
     border-radius: 1rem
-    gap
-    
-    
-
 
 }
+
+
+button:hover {
+  background-color: green;
+}
+
+input:focus {
+  outline: 1px solid blue;
+  border: 1px solid blue;
+}
+
+select {
+  width: 50%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 1rem;
+  padding: 5px 10px;
+}
+
